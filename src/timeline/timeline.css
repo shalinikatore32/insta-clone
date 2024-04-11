@@ -1,0 +1,80 @@
+.timeline {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.story-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timeline_left {
+  flex: 0.7;
+}
+
+.timeline_right {
+  flex: 0.3;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.timeline_left {
+  flex: 2;
+  padding: 0 10px;
+
+}
+
+.timeline_right {
+  flex: 1;
+  padding: 0 10px;
+
+}
+
+
+.post {
+  margin-bottom: 20px;
+
+}
+
+
+.post-user {
+  font-weight: bold;
+}
+
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-likes {
+  color: #999;
+
+}
+
+
+.post-timestamp {
+  color: #ccc;
+
+}
+
+
+@media (min-width: 768px) {
+  .timeline {
+    padding: 0%;
+  }
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .timeline {
+    padding: 10px;
+  }
+}
